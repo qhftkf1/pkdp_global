@@ -77,7 +77,38 @@
           </div>
         </div>
         <div class="menu_hide" id="menu_hide1">
-          dsdasd
+          <div class="row margin_zero menu_detail">
+            <div class="col-md-3 padding_zero menu_detail_head" >
+
+            </div>
+            <div class="col-md-9 padding_zero row row_margin" id="navbar-menu2">
+              <div class="col-md-2" >
+                <div class="menu-category-detail-font">
+                  <a href="#"> <p>소개</p></a>
+                  <a href="#"> <p>인사말</p></a>
+                </div>
+
+              </div>
+              <div class="col-md-2 menu-category" id="menu-category">
+                <div class="menu-category-font">
+                  <p>소개</p>
+                  <p>인사말</p>
+                </div>
+              </div>
+              <div class="col-md-3 menu-category" id="menu-category">
+                <p>국문</p>
+                <p>English</p>
+              </div>
+              <div class="col-md-3 menu-category">
+                <p>국문</p>
+                <p>English</p>
+                <p>中文</p>
+              </div>
+              <div class="col-md-2 menu-category">
+                <p>국문</p>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
     <div class="main-frame">
@@ -93,9 +124,20 @@
 
     <script>
       $("#navbar-menu2").hover(function () {
+
         // $("#menu_hide1").show();
         $( "#menu_hide1" ).slideDown( 700 );
         // $( "#menu_hide1" ).fadeIn( 500 );
+      }, function () {
+        // $("#menu_hide1").hide();
+        // $( "#menu_hide1" ).slideUp( 700 );
+        // $( "#menu_hide1" ).fadeOut( 100 );
+      });
+
+      $("#menu_hide1").hover(function () {
+        // $("#menu_hide1").show();
+        // $( "#menu_hide1" ).slideDown( 700 );
+        $( "#menu_hide1" ).fadeIn( 500 );
       }, function () {
         // $("#menu_hide1").hide();
         $( "#menu_hide1" ).slideUp( 700 );

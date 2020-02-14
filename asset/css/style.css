@@ -1,8 +1,13 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'NanumGothic';
+    font-family: 'NanumGothicExtraBold';
     src: url('../font/NanumGothicExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumGothicBold';
+    src: url('../font/NanumGothicBold.ttf') format('truetype');
 }
 html, body{
   height: 100%;
@@ -12,7 +17,10 @@ img{
   max-width: 100%;
   height: auto !important;
 }
-
+a{
+  color:black!important;
+  border-bottom: 0px!important;
+}
 
 .navbar-blue{
   height: 40px;
@@ -59,11 +67,11 @@ img{
 }
 .menu-category-font{
   font-size:0.9rem;
-  font-family: 'NanumGothic';
+  font-family: 'NanumGothicExtraBold';
 }
 .menu-category-font-en{
   font-size:0.6rem;
-  font-family: 'NanumGothic';
+  font-family: 'NanumGothicExtraBold';
 }
 .menu-category:hover{
   cursor: pointer;
@@ -72,6 +80,23 @@ img{
 .menu-category-font:active{
   color:red;
 }
+.menu_detail{
+  height: 100%;
+}
+.menu_detail_head{
+  background-color: #012873;
+  /* background-image:url("../img/header.jpg");
+  background-size: contain;
+  background-repeat: no-repeat; */
+}
+.menu-category-detail-font{
+  font-family: 'NanumGothicBold';
+  font-size:0.8rem;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
 .margin_zero{
   margin: 0px!important;
 }
