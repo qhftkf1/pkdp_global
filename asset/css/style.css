@@ -21,7 +21,15 @@ a{
   color:black!important;
   border-bottom: 0px!important;
 }
-
+a:link
+{
+  color: black!important;
+  text-decoration: none!important;
+}
+a:visited
+{
+  color: black!important;
+}
 .navbar-blue{
   height: 40px;
   background-color: #012873;

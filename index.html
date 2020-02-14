@@ -15,7 +15,7 @@
     <title>부경대학교 국제교류본부</title>
   </head>
   <body>
-    <div class="navbar-blue">
+    <div class="navbar-blue" id="navbar-blue1">
       <!-- 상단 블루 바 -->
     </div>
       <!-- <div id="menu1" style="width: 100px; border: 1px solid red;">
@@ -31,9 +31,9 @@
     <div class="navbar-menu" id="navbar-menu1">
         <div class="row margin_zero menu">
           <div class="col-md-3 padding_zero" >
-            <a href="https://www.pknu.ac.kr"><img src="asset/img/logo_pknu.png" class="logo_img"></a>
+            <a href="http://oia.pknu.ac.kr/"><img src="asset/img/logo_pknu.png" class="logo_img"></a>
           </div>
-          <div class="col-md-9 padding_zero row row_margin" id="navbar-menu2">
+          <div class="col-md-9 padding_zero row margin_zero" id="navbar-menu2">
             <div class="col-md-2 menu-category" id="menu-category">
               <div class="menu-category-font">
                 국제교류부 소개
@@ -63,16 +63,18 @@
                 글로벌 어학 교육 센터
               </div>
               <div class="menu-category-font-en">
-                Global
+                Global Language Training Center
               </div>
             </div>
             <div class="col-md-2 menu-category">
+              <a href="https://cms.pknu.ac.kr/pknukorean/main.do">
               <div class="menu-category-font">
-                한국어 연수 과정
+              한국어 연수 과정
               </div>
               <div class="menu-category-font-en">
                 Korean language program
               </div>
+              </a>
             </div>
           </div>
         </div>
@@ -81,39 +83,38 @@
             <div class="col-md-3 padding_zero menu_detail_head" >
 
             </div>
-            <div class="col-md-9 padding_zero row row_margin" id="navbar-menu2">
+            <div class="col-md-9 padding_zero row margin_zero" id="navbar-menu2">
               <div class="col-md-2" >
                 <div class="menu-category-detail-font">
-                  <a href="#"> <p>소개</p></a>
-                  <a href="#"> <p>인사말</p></a>
+                  <a href="http://oia.pknu.ac.kr/sub_02.html"> <p>소개</p></a>
+                  <a href="http://oia.pknu.ac.kr/sub_01.html"> <p>인사말</p></a>
                 </div>
 
               </div>
               <div class="col-md-2" >
                 <div class="menu-category-detail-font">
-                  <a href="#"> <p>소개</p></a>
-                  <a href="#"> <p>인사말</p></a>
+                  <a href="http://cms.pknu.ac.kr/pknuglobal/main.do"> <p>국문</p></a>
+                  <a href="http://global_en.pknu.ac.kr/"> <p>English</p></a>
                 </div>
 
               </div>
               <div class="col-md-3" >
                 <div class="menu-category-detail-font">
-                  <a href="#"> <p>소개</p></a>
-                  <a href="#"> <p>인사말</p></a>
+                  <a href="http://iss.pknu.ac.kr/"> <p>국문</p></a>
+                  <a href="http://cms.pknu.ac.kr/pknuoia/view.do?no=1099"> <p>English</p></a>
+                  <a href="http://cms.pknu.ac.kr/pknuoia/view.do?no=1556"> <p>中文</p></a>
                 </div>
 
               </div>
               <div class="col-md-3" >
                 <div class="menu-category-detail-font">
-                  <a href="#"> <p>소개</p></a>
-                  <a href="#"> <p>인사말</p></a>
+                  <a href="http://flec.pknu.ac.kr/"> <p>국문</p></a>
                 </div>
 
               </div>
               <div class="col-md-2" >
                 <div class="menu-category-detail-font">
-                  <a href="#"> <p>소개</p></a>
-                  <a href="#"> <p>인사말</p></a>
+
                 </div>
 
               </div>
@@ -153,6 +154,17 @@
         $( "#menu_hide1" ).slideUp( 700 );
         // $( "#menu_hide1" ).fadeOut( 100 );
       });
+      $("#navbar-blue1").hover(function () {
+        // $("#menu_hide1").show();
+          $( "#menu_hide1" ).slideUp( 700 );
+        // $( "#menu_hide1" ).slideDown( 700 );
+        // $( "#menu_hide1" ).fadeIn( 500 );
+      }, function () {
+        // $("#menu_hide1").hide();
+        $( "#menu_hide1" ).slideUp( 700 );
+        // $( "#menu_hide1" ).fadeOut( 100 );
+      });
+      // $("
       // $(document).on('mouseover', 'menu-category', function () {
       // $('.menu_hide').slideDown(200);
       // });
