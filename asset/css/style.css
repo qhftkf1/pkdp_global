@@ -132,8 +132,8 @@ a:hover
   font-family: 'NanumSquare_acEB';
 }
 .menu-category-font-en{
-  font-size:0.8vw;
-  font-family: 'NanumSquare_acEB';
+  font-size:0.9vw;
+  font-family: 'NanumSquare_acB';
 }
 .menu-category:hover{
   cursor: pointer;
@@ -153,10 +153,10 @@ a:hover
 }
 .menu-category-detail-font{
   font-family: 'NanumSquare_acB';
-  font-size:1rem;
+  font-size:0.7rem;
   color: black;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0px;
 }
 
 .margin_zero{
