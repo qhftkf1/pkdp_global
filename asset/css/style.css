@@ -178,7 +178,9 @@ a:hover
 .padding_zero{
   padding: 0px!important;
 }
-
+.padding_zero_left{
+  padding-left: 0px!important;
+}
 .logo_img{
   max-width: 80%;
   /* height: 100%; */
