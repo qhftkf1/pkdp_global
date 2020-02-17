@@ -1,3 +1,5 @@
+
+
 @charset "UTF-8";
 
 @font-face {
@@ -12,6 +14,7 @@
 html, body{
   height: 100%;
   font-family: 'NanumGothic';
+  overflow: hidden;
 }
 img{
   max-width: 100%;
@@ -30,35 +33,51 @@ a:visited
 {
   color: black!important;
 }
-.navbar-blue{
-  height: 40px;
+
+.navbar-blue-top{
+  height: 5%;
   background-color: #012873;
 }
-
 #navbar-menu1{
-  /* height: 80px; */
+  height: 12%;
   /* background-color: lightgrey; */
 
 }
-/* .navbar-menu:hover{
-  top:100px;
-  width:200px;
-  height: 200px;
-} */
 .main-frame{
   /* height: calc(100% - 120px); */
+  height: 78%
 
 }
-#test1{
-
+.navbar-blue-bottom{
+  height: 5%;
+  background-color: #012873;
 }
-.dept02 {display:none;}
-.test2{
-  background-color: white;
-  height: 200px;
+.navbar-blue-bottom-pknu{
+  height: 60px;
+  background-color: #ebebeb;
+}
+.navbar-blue-bottom-pknu-text{
+  font-family: 'NanumSquare_acEB'!important;
+  /* font-size: 1vw; */
+  /* margin: 10% 10%; */
+}
+
+.main_img{
+  height: 65%;
+  background-image: url("../img/2000_2.jpg");
+  background-size: cover;
+}
+.main-frame-bottom{
+  height: 35%;
+}
+.bottom_img_1{
+  background-image: url("../img/bottom_1.jpg");
+  background-size: cover;
   width: 100%;
-  display: none;
-  z-index: 0;
+  height: 100%;
+}
+.menu{
+  height: 100%;
 }
 #menu_hide1{
   background-color: white;
@@ -127,11 +146,16 @@ a:visited
 
 .logo_img{
   max-width: 80%;
-  margin:10px 20px;
-  height: 60px!important;
+  /* height: 100%; */
+  /* padding:10px 10px; */
+  /* height: 60px!important; */
+  /* background-image:url("../img/logo_pknu.png"); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
 }
 .col-20{
   flex: 0 0 20%;
   max-width: 20%;
-  padding: 5px;
+  /* margin: 5px; */
+  padding:5px;
 }
