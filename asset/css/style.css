@@ -78,19 +78,19 @@ a:hover
   height: 35%;
 }
 .bottom_img_1{
-  background-image: url("../img/bottom_1.jpg");
+  background-image: url("../img/bottom_1_press.jpg");
   background-size: cover;
   width: 100%;
   height: 100%;
 }
 .bottom_img_2{
-  background-image: url("../img/bottom_2.jpg");
+  background-image: url("../img/bottom_2_press.jpg");
   background-size: cover;
   width: 100%;
   height: 100%;
 }
 .bottom_img_3{
-  background-image: url("../img/bottom_3.jpg");
+  background-image: url("../img/bottom_3_press.jpg");
   background-size: cover;
   width: 100%;
   height: 100%;
