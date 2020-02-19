@@ -50,6 +50,12 @@ a:hover
   /* background-color: lightgrey; */
 
 }
+#desktop_ver{
+  height: 100%;
+}
+#smartphone_ver{
+  display: none;
+}
 .main-frame{
   /* height: calc(100% - 120px); */
   height: 78%
@@ -121,6 +127,9 @@ a:hover
 .menu{
   height: 100%;
 }
+.height_full{
+  height: 100%;
+}
 #menu_hide1{
   background-color: white;
   height: 200px;
@@ -129,6 +138,10 @@ a:hover
   z-index: 0;
   position: absolute;
 
+}
+.vertical_align{
+  margin: auto 0px;
+  text-align: center;
 }
 .menu-category{
   margin: auto 0px;
