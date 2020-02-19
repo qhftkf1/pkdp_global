@@ -183,17 +183,8 @@ a:hover
   margin: 0px!important;
 }
 #overlay_pknu {
-  position: absolute;
-  display: ;
-  width: 250px;
-  height: 140px;
-  top: 530px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0);
-  z-index: 2;
-  cursor: pointer;
+
+
 }
 .padding_zero{
   padding: 0px!important;
@@ -209,6 +200,13 @@ a:hover
   /* background-image:url("../img/logo_pknu.png"); */
   /* background-size: cover; */
   /* background-repeat: no-repeat; */
+}
+.icon_home{
+  color: white;
+  transform: scale(1.2);
+}
+.home_padding{
+  padding-top:10px;
 }
 .col-20{
   flex: 0 0 20%;

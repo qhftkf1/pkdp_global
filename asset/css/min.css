@@ -1,4 +1,13 @@
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  a{
+    color: #012873!important;
+    border-bottom: 0px!important;
+  }
+  a:visited
+  {
+    color: #012873!important;
+    text-decoration: none;
+  }
   #navbar-menu2{
     display: none!important;
   }
