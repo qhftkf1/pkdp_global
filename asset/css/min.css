@@ -3,6 +3,13 @@
     color: #012873!important;
     border-bottom: 0px!important;
   }
+  a:link
+  {
+    color: #012873!important;
+    text-decoration: none!important;
+    border-bottom: 0px!important;
+
+  }
   a:visited
   {
     color: #012873!important;
