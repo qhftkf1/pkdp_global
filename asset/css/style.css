@@ -1,25 +1,4 @@
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .foo { color: green } /* IE10 */
-  *::-ms-backdrop, .foo { color: red } /* IE11 */
-    /* .menu-category{
-    margin: 2% 0px;
-    text-align: center;
-    vertical-align: middle;
-  }
-  *::-ms-backdrop, .menu-category{
-    margin: 2% 0px;
-    text-align: center;
-    vertical-align: middle;
-  } */
-
-}
-
-@media all and (-ms-high-contrast:none){
-
-  }
-
-
   @charset "UTF-8";
 
   @font-face {
@@ -235,7 +214,7 @@
   .margin_zero{
     margin: 0px!important;
   }
-
+  
   #overlay_pknu {
 
 
