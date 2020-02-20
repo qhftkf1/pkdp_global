@@ -1,8 +1,8 @@
 @media (min-width: 768px) {
 
   .smartphone_square_title{
-    padding: 15px;
-    font-size: 3.5vmax!important;
+    padding-left:  0px!important;
+    font-size: 3vmax!important;
     font-family: 'NanumSquare_acB';
   }
   .smartphone_square_title_en{
@@ -10,6 +10,7 @@
     font-family: 'NanumSquare_acB';
   }
   .smartphone_square_title_detail{
+      /* padding-left:  20px!important; */
     font-size: 2.5vmax!important;
     font-family: 'NanumSquare_acB';
   }

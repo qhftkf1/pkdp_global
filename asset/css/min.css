@@ -43,9 +43,13 @@
     /* height: 100px; */
     border-bottom: 1px solid lightgrey;
   }
-  .smartphone_square_title{
+  .smartphone_square_title_padding{
     padding: 15px;
-    font-size: 2vmax;
+    height: 100%;
+  }
+  .smartphone_square_title{
+    /* padding: 15px; */
+    font-size: 2.5vmax;
     font-family: 'NanumSquare_acB';
   }
   .smartphone_square_title_en{
@@ -53,13 +57,14 @@
     font-family: 'NanumSquare_acB';
   }
   .smartphone_square_title_detail{
-    font-size: 1.5vmax;
+    font-size: 2vmax;
+    padding-top: 5px;
     font-family: 'NanumSquare_acB';
   }
   .smartphone_square_icon_img{
-    max-width: 60%;
+    max-width: 40%;
     height: auto!important;
-  
+
     /* padding: 20px; */
   }
   .smartphone_square_icon_img_kr{
