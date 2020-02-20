@@ -1,3 +1,16 @@
 @media (min-width: 768px) {
 
+  .smartphone_square_title{
+    padding: 15px;
+    font-size: 3.5vmax!important;
+    font-family: 'NanumSquare_acEB';
+  }
+  .smartphone_square_title_en{
+    font-size: 2.5vmax!important;
+    font-family: 'NanumSquare_acEB';
+  }
+  .smartphone_square_title_detail{
+    font-size: 2.5vmax!important;
+    font-family: 'NanumSquare_acB';
+  }
 }
