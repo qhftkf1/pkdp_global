@@ -46,11 +46,11 @@
   .smartphone_square_title{
     padding: 15px;
     font-size: 2vmax;
-    font-family: 'NanumSquare_acEB';
+    font-family: 'NanumSquare_acB';
   }
   .smartphone_square_title_en{
     font-size: 1.5vmax;
-    font-family: 'NanumSquare_acEB';
+    font-family: 'NanumSquare_acB';
   }
   .smartphone_square_title_detail{
     font-size: 1.5vmax;
@@ -64,7 +64,7 @@
     /* width:95px; */
   }
   .main_font_smartphone{
-    font-family:'NanumSquare_acEB';
+    font-family:'NanumSquare_acB';
     font-size: 4vmax;
     color: white;
   }

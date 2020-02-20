@@ -6,3 +6,9 @@
  - point style을 변경
  span에 onclick을 이용하여 페이지 이동
  - onclick="location.href='https://www.pknu.ac.kr'"
+
+#ver.3.0
+ - 크로스 브라우징 테스트
+ ISSUE | IE 11버전에서 문제 발생
+ menu-category에 있는 margin auto를 이용했지만 적용이 되지 않았다.
+ helper이용 vertical-align 사용해주었다.  
