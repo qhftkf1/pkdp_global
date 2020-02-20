@@ -72,6 +72,9 @@
     height: 30%;
     /* height: 100%; */
   }
+  .main_smartphone{
+    height: auto;
+  }
   .main_img_content_1{
     /* opacity: 0.6; */
     background: center;
