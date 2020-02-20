@@ -214,7 +214,7 @@
   .margin_zero{
     margin: 0px!important;
   }
-  
+
   #overlay_pknu {
 
 
@@ -263,4 +263,8 @@
   .menu_categoty_child{
     vertical-align: middle;
     display: inline-block;
+
+  }
+  .text_center{
+    text-align: center;
   }

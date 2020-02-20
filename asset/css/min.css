@@ -57,7 +57,10 @@
     font-family: 'NanumSquare_acB';
   }
   .smartphone_square_icon_img{
-    padding: 10px;
+    max-width: 60%;
+    height: auto!important;
+  
+    /* padding: 20px; */
   }
   .smartphone_square_icon_img_kr{
     margin-top: 5px;
@@ -108,9 +111,7 @@
     /* max-width: 100%;
     height: auto; */
   }
-  .display_inline{
-    display: inline-flex!important;
-  }
+
   .opacity{
 
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
@@ -220,5 +221,26 @@
   .row_phone{
     display: flex;
     flex-wrap: wrap;
+  }
+  .test_1{
+    height: 55%;
+  }
+  .test_border_box{
+    box-sizing: border-box;
+    height: 100%;
+    border-bottom: 1px solid lightgrey;
+   }
+  .test_left{
+    width:67%;
+    float: left;
+    height: 100%;
+  }
+  .test_right{
+    width:33%;
+    float: left;
+    height: 100%;
+  }
+  .float_left{
+    float: left;
   }
 }
