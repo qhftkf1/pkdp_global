@@ -86,7 +86,7 @@
   .main_img_content_1{
     /* opacity: 0.6; */
     background: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bottom_1_press_dd.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bottom_1_press_d.jpg");
     background-size: cover;
     background-position-y: center;
     width: 100%;
@@ -97,7 +97,7 @@
   .main_img_content_2{
     /* opacity: 0.6; */
     background: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bottom_2_press_dd.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bottom_2_press_d.jpg");
     background-size: cover;
     background-position-y: center;
     width: 100%;
@@ -108,7 +108,7 @@
   .main_img_content_3{
     /* opacity: 0.6; */
     background: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bottom_3_press_dd.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bottom_3_press_d.jpg");
     background-size: cover;
     background-position-y: center;
     width: 100%;
