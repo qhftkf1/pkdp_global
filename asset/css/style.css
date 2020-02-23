@@ -9,10 +9,7 @@
       font-family: 'NanumSquare_R';
       src: url('../font/nanumsquareR.woff') format('truetype');
   }
-  @font-face {
-      font-family: 'NanumGothic';
-      src: url('../font/NanumGothicExtraBold.eot') format('truetype');
-  }
+
 
   @font-face {
       font-family: 'NanumSquare_acEB';
@@ -94,19 +91,19 @@
     height: 35%;
   }
   .bottom_img_1{
-    background-image: url("../img/bottom_1_press_d.jpg");
+    background-image: url("../img/bottom_1_press_dd.jpg");
     background-size: cover;
     width: 100%;
     height: 100%;
   }
   .bottom_img_2{
-    background-image: url("../img/bottom_2_press_d.jpg");
+    background-image: url("../img/bottom_2_press_dd.jpg");
     background-size: cover;
     width: 100%;
     height: 100%;
   }
   .bottom_img_3{
-    background-image: url("../img/bottom_3_press_d.jpg");
+    background-image: url("../img/bottom_3_press_dd.jpg");
     background-size: cover;
     width: 100%;
     height: 100%;
